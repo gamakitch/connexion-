@@ -1,0 +1,159 @@
+
+/* style de la page envoyer le code .css */
+.reset-password-box{
+  width: 340PX;
+  margin-left: 37%;
+    margin-top: 110px;
+    padding: 20px;
+    border: 3px solid red;
+    border-bottom-left-radius: 150PX;
+    border-top-right-radius: 150PX;
+    background-color: #0b0c0bb4; 
+    height: 400px;
+    position: relative;
+}
+body{
+  background-color: hsl(0, 0%, 2%); 
+ 
+}
+h2 {
+  text-align: center;
+  color:#f3f1f1;
+  font-weight: bold;
+  font-size: 28px;
+  margin-left:-10%;
+  margin-top: 19PX;
+}
+
+#reset-code{
+  padding: 10px;
+  width:80%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-top: -14%;
+  border: 1px solid hsl(0, 91%, 45%);
+  color: white;
+  border-bottom: 2PX solid red;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  background-color: transparent;
+}
+#new-password{
+  padding: 10px;
+  width:80%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-top: -5%;
+  border: 1px solid hsl(0, 91%, 45%);
+  color: white;
+  border-bottom: 2PX solid red;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  background-color: transparent;
+}
+#confirm-password{
+  padding: 10px;
+  width:80%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-top: -5%;
+  border: 1px solid hsl(0, 91%, 45%);
+  color: white;
+  border-bottom: 2PX solid red;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  background-color: transparent;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#reset-button {
+  padding: 10px;
+    width: 70%;
+    margin-top: -2%;
+    margin-left: 15%;
+    border-radius: 40px;
+    background-color:transparent;
+    color:red;
+    border: 2PX solid rgb(197, 189, 189);
+    cursor: pointer;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+    box-shadow: 0 0 15PX rgb(231, 217, 217);
+}
+
+#reset-button:hover {
+  background-color:rgba(255, 255, 255, 0.89);
+  
+}
+
+h1{
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.white-letter {
+  color: #f0f0f7;
+  margin-left: 25%;
+}
+.white-letter:hover{
+  color:rgb(255, 0, 0);
+}
+.red-letter {
+  color: rgb(255, 0, 0);
+  margin-left: -2%;
+}
+.red-letter:hover{
+  color: #f0f0f7;
+}
+i.fas.fa-check-circle{
+  position: absolute;
+  top: 150px;
+  left: 350px;
+  transform: translateY(-50%);
+  color: rgb(167, 161, 161);
+}
+i.fas.fa-check-circle:hover{
+  color: red;
+}
+#lock2{
+  position: absolute;
+  top: 215px;
+  left: 350px;
+  transform: translateY(-50%);
+  color: rgb(167, 161, 161);
+
+}
+#lock2:hover{
+  color: red;
+}
+i.fa-key{
+  position: absolute;
+  top: 280px;
+  left: 350px;
+  transform: translateY(-50%);
+  color: rgb(167, 161, 161);
+
+
+}
+i.fa-key:hover{
+  color: red;
+}
+.fas.fa-unlock-alt{
+  color: white;
+
+}

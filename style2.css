@@ -1,0 +1,213 @@
+
+.login-box {
+    width: 330px;
+    margin: auto;
+    margin-top: 160px;
+    padding: 20px;
+    border: 3px solid red;
+    border-bottom-left-radius: 150PX;
+    border-top-right-radius: 150PX;
+    background-color: #0b0c0bb4; 
+    height: 400px;
+
+  }
+  .login-box:hover{
+  box-shadow: 0 0 30PX red;
+  }
+  form{
+    padding-top: 20PX;
+
+  }
+  body{
+     background-color: hsl(0, 0%, 2%); 
+     background-image: url("images/imageSARA.jpg");
+     background-size: cover;
+     margin-bottom: 20%;
+    
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+   
+  h2{
+    text-align: center;
+    color: #fff9f9;
+    font-weight: bold;
+    font-size: 32px;
+    margin-left:-5%;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   opacity: 0; /* Définit l'opacité initiale à 0 */
+   animation: fade-in 2s forwards; /* Animation de fondu en entrée */
+ }
+  
+
+ 
+  .fa-user {
+  font-size: 20px;
+  color: #555555;
+margin-left: 40%;
+margin-top: -10%;
+  background-color: #EAEAEA;
+  border-radius: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+ 
+  h1{
+    margin-top: 6%;
+    margin-left: 6%;
+  }
+  .white-letter {
+    color: #f0f0f7;
+    margin-left: 25%;
+  }
+  .white-letter:hover{
+    color:rgb(255, 0, 0);
+  }
+  .red-letter {
+    color: rgb(255, 0, 0);
+    margin-left: -2%;
+  }
+  .red-letter:hover{
+    color: #f0f0f7;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  #password {
+    padding: 10px;
+    width:80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 91%, 45%);
+    color: white;
+    border-bottom: 2PX solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: transparent;
+  }
+  #email {
+    padding: 10px;
+    width:80%;
+    margin-top: -18%;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 91%, 45%);
+    color: white;
+    border-bottom: 2PX solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: transparent;
+  }
+  #forgot-password-button {
+    background-color: transparent;
+    color: rgb(247, 235, 235);
+    border: none;
+    border-radius: 20PX;
+    display: block;
+    margin-left: 168px;
+    margin-top: -5%;
+    width: 50%;
+    padding: 10PX;
+   
+  }
+  
+ 
+
+  #forgot-password-button:hover {
+    color:red;
+    background-color:transparent;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+ 
+  .animated-button{
+    padding: 10px;
+    width: 45%;
+    margin-top: 13%;
+    margin-left: 27%;
+    border-radius: 40px;
+    background-color:transparent;
+    color:rgb(243, 43, 43);
+    border: 2PX solid rgb(253, 227, 227);
+    cursor: pointer;
+    animation: pulse 2s infinite;
+    box-shadow: 0 0 15PX rgb(231, 217, 217);
+  }
+  
+  .animated-button:hover {
+    background-color:#f3ebeb;
+    color: red;
+  }
+ .remember-me{
+   
+    margin-left: 2PX;
+    margin-top: -9%;
+      
+  }
+  label{
+    color: white;
+    width: 30%;
+    margin-left: 5px;
+   
+   
+  }
+  
+  .error {
+    color: red;
+  }
+  .email-input {
+    position: relative;
+    padding-left: 10PX;
+    
+  }
+  #email2 {
+    position: absolute;
+    top: 25%;
+    left: 230px;
+    transform: translateY(-50%);
+    color: rgb(167, 161, 161);
+  }
+ #email2:hover{
+    color: red;
+
+  }
+  .email-input input {
+    padding-left: 30px; /* Pour laisser de l'espace à l'icône */
+   
+  }
+  #cadna{
+    position: absolute;
+    top: 29%;
+    left: 230px;
+    transform: translateY(-50%);
+    color: rgb(167, 161, 161);
+  }
+ #cadna:hover{
+    color: red;
+  }
+  .mot-input input {
+    padding-left: 30px; /* Pour laisser de l'espace à l'icône */
+  }
+  .mot-input{
+    position: relative;
+    padding-left: 10PX;
+  }

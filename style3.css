@@ -1,0 +1,143 @@
+/* Styles CSS de la page mot de passe oublier  */
+.container {
+  padding: 20px;
+  width: 330px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  border: 3px solid red;
+  border-bottom-left-radius: 150PX;
+  border-top-right-radius: 150PX;
+  background-color: #0b0c0bb4; 
+  height: 400px;
+}
+.container:hover{
+  box-shadow: 0 0 30PX red;
+  }
+body{
+  background-color: hsl(0, 0%, 2%); 
+  
+}
+#forgotPasswordForm{
+  padding: -50PX;
+}
+h2{
+text-align: center;
+color: #e41717e7;
+font-weight: bold;
+font-size: 42PX;
+margin-top: 3PX;
+margin-left:-5%;
+}
+#forgot-email {
+padding: 10px;
+width:75%;
+margin-top: -2%;
+border-radius: 5px;
+padding-top: 20PX;
+margin-left: 5%;
+border: 1px solid hsl(0, 91%, 45%);
+color: white;
+border-bottom: 2PX solid red;
+border-top: none;
+border-left: none;
+border-right: none;
+outline: none;
+background-color: transparent;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.animated-button2{
+padding: 10px;
+width: 65%;
+border: 2PX solid rgb(247, 240, 240);
+border-radius: 20px;
+background-color:transparent;
+color:red;
+cursor: pointer;
+margin-left: 50PX;
+justify-content: center;
+margin-top: 70PX;
+cursor: pointer;
+animation: pulse 2s infinite;
+box-shadow: 0 0 15PX rgb(223, 33, 33);
+
+
+
+}
+.animated-button2:hover {
+color:red;
+background-color:rgba(15, 13, 13, 0.89);
+
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.animated-button3{
+  padding: 10px;
+  width: 65%;
+  margin-left: 40%;
+  border: 2PX solid rgb(212, 205, 205);
+  border-radius: 20px;
+  background-color:transparent;
+  color:red;
+  cursor: pointer;
+  margin-left: 90px;
+  margin-top:12%;
+  width: 40%;
+  cursor: pointer;
+animation: pulse 2s infinite;
+box-shadow: 0 0 15PX rgb(231, 217, 217);
+  
+  
+  }
+  .animated-button3:hover {
+  color:red;
+  background-color:rgba(27, 25, 25, 0.89);
+  
+  }
+h1{
+  margin-top:2%;
+  margin-left: 2%;
+}
+.white-letter {
+color: #f0f0f7;
+margin-left: 25%;
+}
+.white-letter:hover{
+color:rgb(255, 0, 0);
+}
+.red-letter {
+color: rgb(255, 0, 0);
+margin-left: -2%;
+}
+.red-letter:hover{
+color: #f0f0f7;
+}
+.form-group i.fas.fa-envelope{
+position: absolute;
+top: 41%;
+left: 740px;
+transform: translateY(-50%);
+color: rgb(167, 161, 161);
+}
+.form-group i.fas.fa-envelope:hover{
+color: red;
+}

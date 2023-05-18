@@ -1,0 +1,454 @@
+#FORGET{
+    /* Change le curseur en pointeur au survol du bouton */
+    background-color: transparent;
+    color: red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    text-decoration: underline;
+   
+    
+     width: 50%;
+  }
+  /* code js depage connextion le premier code 
+  function submitForm() {
+    // Prevent default form submission behavior
+    event.preventDefault();
+  
+    // Get input values
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+  
+    // Validate input fields
+    if (username.trim() === "") {
+      alert("Please enter a valid username.");
+      return false;
+    }
+  
+    if (password.trim() === "") {
+      alert("Please enter a valid password.");
+      return false;
+    }
+  
+    // Send HTTP request to authenticate user
+    const xhr = new XMLHttpRequest();
+    const url = "authenticate.php"; // Replace with your server-side authentication script
+    const params = `username=${username}&password=${password}`;
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+        const response = JSON.parse(xhr.responseText);
+        if (response.success) {
+          // Redirect user to dashboard page
+          window.location.href = "dashboard.html"; // Replace with your dashboard page URL
+        } else {
+          alert(response.message);
+        }
+      }
+    }
+    xhr.send(params);
+  
+}
+  const form = document.querySelector("form");
+  form.addEventListener("submit", submitForm);
+ 
+
+  function forgotPassword() {
+    var email = prompt("Veuillez saisir votre adresse e-mail :");
+
+    // Vérification de l'adresse e-mail
+    if (email != null && email !== "") {
+      // Envoyer une demande de réinitialisation du mot de passe
+      // Vous pouvez ajouter votre propre logique ici, comme appeler une API ou rediriger l'utilisateur vers une page spécifique.
+      alert("Un e-mail de réinitialisation du mot de passe a été envoyé à " + email);
+    }
+  }
+   //mot de passe oublier
+   <button type="button" onclick="forgotPassword()">Mot de passe oublié</button>
+   function forgotPassword() {
+     // Logique pour réinitialiser le mot de passe ou rediriger l'utilisateur
+     alert("Mot de passe oublié !");
+   }
+  
+const socialIcons = document.querySelectorAll('.social-icon');
+socialIcons.forEach(icon => {
+  icon.addEventListener('click', () => {
+    const url = icon.getAttribute('href');
+    window.location.href = url;
+  });
+});
+
+// Sélectionner le lien "Mot de passe oublié"
+var forgotPasswordLink = document.querySelector('#forgotPasswordLink');
+
+// Ajouter un gestionnaire d'événement au clic sur le lien
+forgotPasswordLink.addEventListener('click', function(event) {
+    // Empêcher le comportement par défaut du lien (redirection)
+    event.preventDefault();
+    
+    // Redirection vers la page de mot de passe oublié
+    window.location.href = 'forgot_password.html';
+});
+  /*
+  document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Empêche le formulaire de se soumettre
+  
+    var emailInput = document.getElementById("email");
+    var emailValue = emailInput.value;
+    var errorElement = document.getElementById("error");
+  
+    if (!emailInput.checkValidity()) {
+      // Affiche un message d'erreur si l'adresse e-mail n'est pas valide
+      errorElement.innerHTML = "Veuillez entrer une adresse e-mail valide.";
+      emailInput.classList.add("error");
+    } else {
+      // Supprime le message d'erreur et le style d'erreur
+      errorElement.innerHTML = "";
+      emailInput.classList.remove("error");
+  
+      // Ici, vous pouvez envoyer le formulaire ou effectuer d'autres actions nécessaires
+      // en utilisant la valeur de l'adresse e-mail (emailValue)
+    }
+  });
+  //page connextion<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Login Page</title>
+      <link rel="stylesheet" href="style2.css">
+      <link rel="stylesheet" href=" C:\Users\OWNER\Documents\oxygym\oxygymd\css\all.css">
+      <script src="/chemin/vers/font-awesome/js/script.js"></script>
+    </head>
+    <header>
+      <div>
+   <nav>
+  <ul>
+  <li>ACCUIEL</li> <li>PLANNING</li><li>ABONNEMENT</li><li>ACTIVITES</li><li>NOTRE MAGASIN</li><li><a>A PROPOS DE NOUS</a></li>
+  </ul>
+  </nav>
+  </div>
+  </header> 
+  
+    <body>
+    
+    <!----
+     
+      <button type="button" onclick="forgotPassword()">Mot de passe oublié</button>
+    -->
+      <div class="login-box">
+        <h2>Connexion</h2>
+        <form>
+          <div class="email-input">
+            <i class="fas fa-envelope"></i>
+          <input type="email" id="email" name="email" placeholder="Entrez votre adresse e-mail" required><br><br>
+        </div>
+          <div class="mot-input">
+          <input type="password" id="password"  placeholder=" Entrez votre mot de passe" ><br><br>
+          <i class="fas fa-lock"></i>
+          </div>
+          <a href="forgot_password.html">Mot de passe oublié?</a>
+  
+          <button type="submit">Se Connecter</button>
+          <div class="social-icons">
+            <!-- Exemples d'icônes de réseaux sociaux -->
+            <a href="https://www.facebook.com/votre-page" class="social-icon"><i class="fab fa-facebook"></i></a>
+    <a href="https://twitter.com/votre-compte" class="social-icon"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/votre-compte" class="social-icon"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/votre-compte" class="social-icon"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <h1>
+    <span class="white-letter">OXY</span>
+    <span class="red-letter">GYM</span>
+  </h1>
+        </form>
+      <script src="script.js"></script>
+    </body>
+  </html>
+  js de mot de passe oublier 
+
+
+  // Fonction à exécuter lorsque le DOM est entièrement chargé
+ document.addEventListener('DOMContentLoaded', function() {
+  // Sélectionner le lien "Mot de passe oublié"
+  var forgotPasswordLink = document.getElementById('forgotPasswordLink');
+
+  forgotPasswordLink.addEventListener('click', function(event) {
+    event.preventDefault();
+
+    // Redirection vers la page de mot de passe oublié
+    window.location.href = 'forgot_password.html';
+  });
+});
+ci avec le link 
+var forgotPasswordLink = document.getElementById('forgotPasswordLink');
+
+forgotPasswordLink.addEventListener('click', function(event) {
+  event.preventDefault();
+
+  // Redirection vers la page de mot de passe oublié
+  window.location.href = 'forgot_password.html';
+});*
+button {
+    padding: 10px;
+    width: 40%;
+    margin-top: 2%;
+    border-radius: 20px;
+    background-color: transparent;
+    color: red;
+    border: 3PX  solid RED;
+    cursor: pointer;
+    border-radius: 15PX;
+  }
+  button:hover {
+    background-color: #e3e9e3cb;
+    color: red;
+  }
+ .forgot-password-btn{
+    background-color: transparent;
+    color: rgb(17, 16, 16);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    text-decoration: underline;
+    display: block;
+    margin-left: 150PX;
+    margin-top: -5%;
+     width: 50%;
+  }
+  button:focus {
+    outline: none; /* Supprime la bordure de focus */
+  }
+  //se souvenire de mot de passe
+// Récupérer les éléments du formulaire
+var rememberMeCheckbox = document.getElementById("rememberMe");
+var usernameInput = document.getElementById("username");
+var passwordInput = document.getElementById("password");
+
+// Vérifier si les informations de connexion sont déjà enregistrées
+if (localStorage.getItem("rememberedUsername")) {
+  rememberMeCheckbox.checked = true;
+  usernameInput.value = localStorage.getItem("rememberedUsername");
+  passwordInput.focus();
+} else {
+  usernameInput.focus();
+}
+
+// Gérer l'événement de soumission du formulaire
+document.querySelector("form").addEventListener("submit", function(event) {
+  // Enregistrer le nom d'utilisateur si l'option "Se souvenir de moi" est cochée
+  if (rememberMeCheckbox.checked) {
+    localStorage.setItem("rememberedUsername", usernameInput.value);
+  } else {
+    localStorage.removeItem("rememberedUsername");
+  }
+  
+  // Autres actions de soumission du formulaire...
+});
+// le code pour la page mot de passe oublier que j'ai creer deja 
+<html></html>
+<DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mot de passe oublié</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mot de passe oublié</h1>
+      <p>Entrez votre adresse e-mail pour réinitialiser votre mot de passe.</p>
+      <form id="reset-form" action="" method="POST">
+        <input type="email" id="email" name="email" placeholder="Adresse e-mail" required>
+        <button type="submit">Réinitialiser le mot de passe</button>
+      </form>
+      <div id="success-message"></div>
+    </div>
+  
+    <script src="script2.js"></script>
+  </body>
+  </html>
+  css 
+  body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #1877f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0e62cd;
+  }
+  
+  #success-message {
+    margin-top: 20px;
+    text-align: center;
+    color: green;
+  }
+  js 
+  // le js de la page mot de passe oublier 
+document.getElementById("reset-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+  
+    // Récupérer l'adresse e-mail entrée par l'utilisateur
+    var email = document.getElementById("email").value;
+  
+    // Envoyer la demande de réinitialisation de mot de passe (vous devrez implémenter cette logique côté serveur)
+  
+    // Afficher un message de succès
+    var successMessage = document.getElementById("success-message");
+    successMessage.textContent = "Un e-mail de réinitialisation de mot de passe a été envoyé à " + email + ".";
+  
+    // Rediriger vers une autre page
+    setTimeout(function() {
+      window.location.href = "page_envoyer_le_code.html"; // Remplacez "reset_password.html" par l'URL de la page où l'utilisateur saisira le code de réinitialisation
+    }, 3000); // Redirection après 3 secondes (modifiable selon vos besoins)
+  });
+ // les liens pour lier la page mot de passe et le code mot de passe
+// Code pour envoyer l'e-mail avec le lien de réinitialisation
+var resetCode = generateResetCode(); // Générer le code de réinitialisation (vous devez implémenter cette fonction)
+var resetLink = " page_envoyer_le_code.html?code=" + encodeURIComponent(resetCode);
+
+// Envoyer l'e-mail à l'utilisateur avec le lien de réinitialisation
+// ...
+// la pge des commentaires
+
+<h3>VOS COMMENTAIRE</h3>
+<!----
+<img id="details-enlarged3-image" class="js-search-result-thumbnail custom-height container--focus" 
+		src="https://as1.ftcdn.net/v2/jpg/05/89/46/28/1000_F_589462806_16Sgx788GasNua1sDUFo2MJFAad23Jzw.jpg" alt="no smoking sign" 
+		itemprop="thumbnail" data-content-id="589462806">
+		<img id="details-enlarged4-image" class="js-search-result-thumbnail custom-height container--focus"
+		 src="https://as2.ftcdn.net/v2/jpg/04/63/80/15/1000_F_463801560_UMX7hcgVHcMdZ0N27qaJMDaT6bYnGy36.jpg"  
+		alt="Back button icon vector graphic" itemprop="thumbnail" data-content-id="463801560">
+-->
+<div class="cercle">
+<img class="imgg" src="images/imagepro.jpg"/>
+</div>
+	<div class="col-xs-7">
+		<h2> IT'S TIME TO<br> BE HEALTHY <br>AND IN GREAT<br> SHAPE </h2><img class="img-responsivee" src="images/imageav.jpg"/>
+	</div>
+	<input type="submit" value="ajoUTEZ UN COMMENTAIRE" id="addd"/>
+
+  
+  // le style de menu
+  header
+{
+  position: relative;
+  margin-right: 55px;
+  margin-left: 400px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+
+nav {
+
+  color: rgb(236, 228, 228);
+  text-decoration: none;
+  top: 0%;
+  float: right;
+
+
+  
+}  
+nav li{
+  margin: 10px;
+
+} 
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+  list-style-type: none;
+}
+nav li a:hover {
+color: red;
+}
+// box agi je ne sais pas pourquoi mait peut etre f la taille
+.box{
+  background-color: red;
+  border: 5px solid rgb(238, 13, 13);
+  height: 200Px;
+  width: 200px;
+  margin-bottom: 10PX;
+  margin: 2PX;
+  margin-left: 170PX;
+  padding-top: 70%;
+  padding-bottom: 90%;
+  padding-right: 130PX;
+  padding-left: 30%;
+  box-shadow: O 0 20PX rgb(218, 213, 213);
+  transition: 1s;
+}
+// ce lui la aussi 
+.x
+{
+  margin: top 40px;
+  margin-left:62%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height:70px;
+  width: 140px;
+}
+
+.b
+{
+  width: 50 px ;
+  height: 60 px ;
+}
+
+
+
+
+  
+  
+  
+ 
+  
+  
+  
+  
+  

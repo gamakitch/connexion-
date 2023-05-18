@@ -1,0 +1,118 @@
+/* Styles CSS de la page mot de passe oublier  */
+.container {
+  padding: 20px;
+  width: 330px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  border: 3px solid red;
+  border-bottom-left-radius: 150PX;
+  border-top-right-radius: 150PX;
+  background-color: #0b0c0bb4; 
+  height: 400px;
+}
+.container:hover{
+  box-shadow: 0 0 30PX red;
+  }
+body{
+  background-color: hsla(0, 0%, 2%, 0.847); 
+  background-image: url("file:///C:/Users/OWNER/Documents/oxygym/oxygymd/images/imageSARA.jpg");
+  background-size: cover;
+  margin-bottom: 20%;
+}
+h2{
+text-align: center;
+color: #e41717e7;
+font-weight: bold;
+font-size: 42PX;
+margin-top: 3PX;
+margin-left:-5%;
+}
+input {
+padding: 10px;
+width:75%;
+margin-bottom: 10px;
+border-radius: 5px;
+margin-top: -10%;
+margin-left: 5%;
+border: 1px solid hsl(0, 91%, 45%);
+color: white;
+border-bottom: 2PX solid red;
+border-top: none;
+border-left: none;
+border-right: none;
+outline: none;
+background-color: transparent;
+}
+button{
+padding: 10px;
+width: 65%;
+margin-left: 40%;
+border: 2PX solid red;
+border-radius: 20px;
+background-color:transparent;
+color:red;
+cursor: pointer;
+
+
+}
+button:hover {
+color:red;
+background-color:rgba(255, 255, 255, 0.89);
+
+}
+h1{
+margin-top: 2%;
+margin-left: 2%;
+}
+button[type="submit"] {
+margin-left: 90px;
+margin-top:5%;
+width: 40%;
+}
+button[type="button"]{
+margin-left: 50PX;
+justify-content: center;
+margin-top: 4%;
+
+}
+.social-icons {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.social-icon {
+display: inline-block;
+margin: 5px;
+margin-top: 10%;
+font-size: 34px;
+color:rgba(255, 255, 255, 0.925);
+transition: color 0.3s ease;
+}
+.social-icon:hover {
+color:red; /* Couleur au survol */
+}
+.white-letter {
+color: #f0f0f7;
+margin-left: 25%;
+}
+.white-letter:hover{
+color:rgb(255, 0, 0);
+}
+.red-letter {
+color: rgb(255, 0, 0);
+margin-left: -2%;
+}
+.red-letter:hover{
+color: #f0f0f7;
+}
+.form-group i.fas.fa-envelope{
+position: absolute;
+top: 42%;
+left: 740px;
+transform: translateY(-50%);
+color: rgb(167, 161, 161);
+}
+.form-group i.fas.fa-envelope:hover{
+color: red;
+}

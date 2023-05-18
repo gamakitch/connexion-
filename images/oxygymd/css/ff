@@ -1,0 +1,1355 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+<body>
+       <header>
+       	
+
+       			<div >
+        	<nav>
+        <ul>
+        <li>ACCUIEL</li> <li>PLANNING</li><LI>ABONNEMENT</LI><LI>ACTIVITES</LI><li>NOTRE MAGASIN</li><LI>A PROPOS DE NOUS</LI>
+        </ul>
+        </nav>
+        </div>
+        <div>
+        </header> 
+        </div>
+        
+                <div class="row">
+                    <h1>NOS COACHES</h1>
+                </div>
+             <div class="col-xs-4">
+			<img  class="img-responsive"src="images/imageD.jpg"/>
+			<h2 class="text-center"> Texxxxxxxxxxxxx
+				xxxxxxxxxxxxxxx
+				xxxxxxxx
+			xxxxxxxxxxxxxxxxxxx
+			xxxxxxxxxxxxxxxxxxxxxx
+			xxxxxxxxxxxxxxxxxxxxxxxx</h2>
+			<input type="submit" value="Choisir CE COACH" id="add"/>
+		</div>
+		<div class="col-xs-4">
+			<img  class="img-responsivee"src="images/imageDD.jpg"/>
+			<h2 class="text-center"> Texxxxxxxxxxxxx
+				xxxxxxxxxxxxxxx
+				xxxxxxxx
+			xxxxxxxxxxxxxxxxxxx
+			xxxxxxxxxxxxxxxxxxxxxx
+			xxxxxxxxxxxxxxxxxxxx</h2>
+			
+			<input type="submit" value="Choisir CE COACH" id="add"/>
+		</div>
+		<div class="col-xs-4">
+			<img  class="img-responsive"src="images/imageDDD.jpg"/>
+			<h2 class="text-center"> Texxxxxxxxxxxxx
+				xxxxxxxxxxxxxxx
+				xxxxxxxx
+			xxxxxxxxxxxxxxxxxxx
+			xxxxxxxxxxxxxxxxxxxxxx</h2>
+			<input type="submit" value="Choisir CE COACH" id="add"/>
+		</div>
+
+
+
+
+
+
+<h1>VOS COMMENTAIRE</h1>
+
+<div class="border">
+<div class="row header">
+<div class="container">
+	<div class="row">
+		<div class="col-xs-2">
+			<h2> loremsdqs dsqd qsd qsdqsd qsd qsd qsd </h2>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<input type="submit" value="ECRIVEZ VOS COMMENTAIRE" id="add"/>
+			
+		</div>
+		<div class="col-xs-2">
+			<img  class="img-responsive"src="image/image1.jpg"/>
+			
+	
+			
+		</div>
+		
+</div>
+</div>
+</div>
+</div>
+    
+
+    
+</body>
+</html>body{
+    background-color: rgb(43, 41, 41);
+}
+
+header
+{
+    margin-right: 55px;
+    margin-left: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+nav {
+
+    color: rgb(236, 228, 228);
+    text-decoration: none;
+    top: 0%;
+    float: right;
+
+
+    
+}  
+ nav li{
+    margin: 15px;
+
+} 
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+h1{
+    color: red;
+    margin-left: 40%;
+    
+}
+.col-xs-1{
+    height: 2px;
+    width: 2px;
+}
+.col-xs-2{
+    height: 2px;
+    width: 2px;
+}
+.col-xs-3{
+    height: 2px;
+    width: 2px;
+}
+body{
+    background-color: rgb(43, 41, 41);
+}
+
+header
+{
+    position: fixed;
+    margin-right: 55px;
+    margin-left: 400px;
+    margin-top: 5px;
+    margin-bottom: 5 px;
+    
+}
+
+
+nav {
+
+    color: rgb(236, 228, 228);
+    text-decoration: none;
+    top: 0%;
+    float: right;
+
+
+    
+}  
+<h1>VOS COMMENTAIRE</h1>
+
+<div class="border">
+<div class="row header">
+<div class="container">
+	<div class="row">
+		<div class="col-xs-2">
+			<h2> loremsdqs dsqd qsd qsdqsd qsd qsd qsd </h2>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<input type="submit" value="ECRIVEZ VOS COMMENTAIRE" id="add"/>
+			
+        </div>
+		<div class="col-xs-2">
+			<img  class="img-responsive"src="image/image1.jpg"/>
+			
+	
+			
+		</div>
+		
+</div>
+</div>
+</div>
+</div>
+    
+</body>
+</html>
+<div class="comment">
+    <p class="lecture"> IT'S TIME TO BE <img  class="img-responsivee"src="images/imageav.jpg"/> 
+        HEALTHY AND IN GREAT SHAPE </p>
+    </div>
+
+
+
+<div class="media">
+    <i class="fa-brands fa-facebook"></i>
+</div>
+<h2 class="text-center">DYHIA CHAIB
+    texxxxxxxxxxxxxxxxxx
+</h2>
+<h2 class="text-center"> Texxxxxxxxxxxxx
+    xxxxxxxxxxxxxxx
+    xxxxxxxx
+xxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxx	
+</h2>
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .container > .navbar-header,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+  }
+}
+
+.container .jumbotron,
+.container-fluid .jumbotron {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+
+.container .jumbotron,
+  .container-fluid .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.container:after,
+.container-fluid:after,
+
+
+row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+img {
+  vertical-align: middle;
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.text-center {
+  text-align: center;
+}
+
+.border
+{
+    border: darkred;
+    }var swiper = new Swiper(".slide-content", {
+        slidesPerView: 1,
+        centeredSlides: false,
+        slidesPerGroupSkip: 1,
+        grabCursor: true,
+        keyboard: {
+          enabled: true,
+        },
+        breakpoints: {
+          769: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+          },
+        },
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+      <h2> IT'S TIME TO<br> BE HEALTHY <br>AND IN GREAT<br> SHAPE </h2><img class="img-responsivee" src="images/imageav.jpg"/>
+	</div>
+  lement.style {
+  }
+  @media only screen and (min-width: 601px)
+  .container-assetdetails-custom .custom-height {
+      max-width: 100%;
+      width: auto;
+  }
+  .motmot img {
+      border: 0;
+  }
+  .motmot * {
+      box-sizing: border-box;
+  }
+  .container--focus {
+      height: 100%;
+      width: 100%;
+  }
+  img {
+      border-style: none;
+  }
+  img {
+      vertical-align: middle;
+  }
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, audio, canvas, details, figcaption, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, summary, time, video {
+      border: 0;
+      outline: 0;
+      font-size: 100%;
+      vertical-align: baseline;
+      background: transparent;
+      margin: 0;
+      padding: 0;
+  }
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, audio, canvas, details, figcaption, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, summary, time, video {
+      border: 0;
+      outline: 0;
+      font-size: 100%;
+      vertical-align: baseline;
+      background: transparent;
+      margin: 0;
+      padding: 0;
+  }
+  img[Attributes Style] {
+  }
+  user agent stylesheet
+  img {
+      overflow-clip-margin: content-box;
+      overflow: clip;
+  }
+  body {
+      background-color: #fff;
+      color: #000;
+      font-family: adobe-clean,Helvetica,sans-serif;
+      font-size: 12;
+      line-height: 1.428571429;
+      position: relative;
+  }
+  body {
+      line-height: 1;
+  }
+  body {
+      line-height: 1;
+  }
+  html {
+      line-height: 1.15;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+  }
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+    },
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    <div class="swiper-slide">Slide 4</div>
+    <div class="swiper-slide">Slide 5</div>
+    <div class="swiper-slide">Slide 6</div>
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    body{
+      background-color: rgb(43, 41, 41);
+  }
+  
+  header
+  {
+      position: relative;
+      margin-right: 55px;
+      margin-left: 400px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      
+  }
+  
+  
+  nav {
+  
+      color: rgb(236, 228, 228);
+      text-decoration: none;
+      top: 0%;
+      float: right;
+  
+  
+      
+  }  
+   nav li{
+      margin: 15px;
+  
+  } 
+  
+  nav ul{
+      display: flex;
+      justify-content: center;
+      
+      align-items: center;
+      list-style-type: none;
+  }
+  nav li a {
+    color: red;
+  }
+  
+  h1{
+      color: red;
+      margin-left: 42%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+  }
+  #details-enlarged-image{
+    background: url("https://as1.ftcdn.net/v2/jpg/05/89/46/28/1000_F_589462806_16Sgx788GasNua1sDUFo2MJFAad23Jzw.jpg");
+    width: 3%;
+    height: 1%;
+    border: 5px;
+    border-radius: 60%;
+    margin-top: 15%;
+    float: right;
+    display: block;
+  }
+  #details-enlarged1-image{
+  background: url("https://as2.ftcdn.net/v2/jpg/04/63/80/15/1000_F_463801560_UMX7hcgVHcMdZ0N27qaJMDaT6bYnGy36.jpg" );
+  width: 2%;
+  height: 1%;
+  border: 5px;
+  border-radius: 60%;
+  margin-top: 15%;
+  float: left;
+  display: block;
+  }
+  #details-enlarged3-image{
+    background: url("https://as1.ftcdn.net/v2/jpg/05/89/46/28/1000_F_589462806_16Sgx788GasNua1sDUFo2MJFAad23Jzw.jpg");
+    width: 3%;
+    height: 1%;
+    border: 5px;
+    border-radius: 60%;
+    margin-top: 30%;
+    float: right;
+    display: block;
+  }
+  #details-enlarged4-image{
+    background: url("https://as2.ftcdn.net/v2/jpg/04/63/80/15/1000_F_463801560_UMX7hcgVHcMdZ0N27qaJMDaT6bYnGy36.jpg");
+    width: 3%;
+    height: 1%;
+    border: 5px;
+    border-radius: 60%;
+    margin-top: 30%;
+    float: left;
+    display: block;
+  
+  }
+  /*
+  .container header{
+    transform: scale(1.2);
+    box-shadow: 5PX 5px 5px rgba(0,0,0, 0) ;
+  
+  }
+  */
+  
+  
+  
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+     
+  }
+  .box{
+      background-color: red;
+      border: 5px solid rgb(238, 13, 13);
+      height: 200Px;
+      width: 200px;
+      margin-bottom: 10PX;
+      margin: 2PX;
+      margin-left: 170PX;
+      padding-top: 70%;
+      padding-bottom: 90%;
+      padding-right: 130PX;
+      padding-left: 30%;
+      box-shadow: O 0 20PX rgb(218, 213, 213);
+      transition: 1s;
+  
+      
+      
+      
+  }
+  
+  
+  .image1{
+    height: 7%;
+    width: 9%;
+    margin-left: 35%;
+    margin-top: 2%;
+   
+   }
+   .imageS{
+    height: 7%;
+    width: 9%;
+    margin-left: 1%;
+    margin-top: 2%;
+   }
+   .imageL{
+    height: 6%;
+    width: 8%;
+    margin-left: 1%;
+    margin-top: 2%;
+  
+   }
+   .image2{
+    height: 7%;
+    width: 9%;
+    margin-left: 35%;
+    margin-top: 2%;
+   }
+   
+    .image3{
+      height: 7%;
+      width: 9%;
+      margin-left: 35%;
+      margin-top: 2%;
+     
+    }
+  #add{
+      color: rgb(236, 228, 228);
+      text-decoration: none;
+      background-color:rgb(15, 14, 14);
+      width: 60%;
+      margin-left: 35%;
+      border-radius: 15px;
+  
+  }
+  
+  .x
+  {
+      margin: top 40px;
+      margin-left:62%;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height:70px;
+      width: 140px;
+  }
+  
+  .b
+  {
+      width: 50 px ;
+      height: 60 px ;
+  }
+  
+  
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .col-xs-4 {
+    width: 60%;
+    height: 310PX;
+    background-color: red;
+    margin-left: 19%;
+    margin-top: 5%;
+    
+    box-shadow :0PX 0PX 20PX rgb(155, 152, 152);
+     
+  } 
+  
+  
+  .col-xs-1 {
+    width: 60%;
+    height: 310PX;
+    background-color: red;
+    margin-left: 19%;
+    margin-top: 5%;
+    
+    box-shadow :0PX 0PX 20PX rgb(155, 152, 152);
+     
+  } 
+  
+  
+      /*
+      transform: scale(1.2);
+    box-shadow: 5PX 5px 5px rgba(0,0,0, 0) ;
+      transform: scale(1.2);
+      cursor: pointer;
+      */
+     
+  
+  .col-xs-3{ 
+    width: 60%;
+    height: 310PX;
+    background-color: red;
+    margin-left: 19%;
+    margin-top: 5%;
+   
+    box-shadow :0PX 0PX 20PX rgb(155, 152, 152);
+     
+  } 
+  .wrapper.button{
+    display: inline-block;
+    height: 60PX;
+    width: 60PX;
+    float: left;
+    margin: 0 5PX;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50PX;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  
+      
+      .col-xs-5 {
+        width: 60%;
+        height: 310PX;
+        background-color: red;
+        margin-left: 19%;
+        margin-top: 5%;
+       
+        box-shadow :0PX 0PX 20PX rgb(155, 152, 152);
+     
+      } 
+  
+  
+      
+      .col-xs-6{
+        width: 60%;
+        height: 310PX;
+        background-color: red;
+        margin-left: 19%;
+        margin-top: 5%;
+        box-shadow :0PX 0PX 20PX rgb(155, 152, 152);
+     
+      } 
+        
+  
+  
+      
+      .col-xs-8{
+        width: 60%;
+        height: 310PX;
+        background-color: red;
+        margin-left: 19%;
+        margin-top: 5%;
+        box-shadow :0PX 0PX 20PX rgb(155, 152, 152);
+     
+  } 
+  
+    
+      
+      .col-xs-9{
+        width: 60%;
+        height: 310PX;
+        background-color: red;
+        margin-left: 19%;
+        margin-top: 5%;
+        box-shadow :0PX 0PX 20PX rgb(155, 152, 152);
+     
+  
+  
+      }
+  
+  
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: -19%;
+    align-items: center;
+  }
+  .descreption{
+    font-size: 14PX;
+    color: black;
+    text-align: center;
+  }
+      
+  .img-responsive{
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    width: 96%;
+  
+  
+  }
+  .col-xs-7{
+    height: 350px;
+    width: 60%;
+    margin-left:22% ;
+    margin-top: -2%;
+    border: 5px solid red;
+     box-shadow :0PX 0PX 20PX rgb(155, 152, 152);
+     
+    
+    
+  
+  }
+  .cercle{
+    width: 7%;
+    height: 70PX;
+    border: 5PX solid red;
+    border-radius: 80%;
+    margin-left: 18%;
+    margin-top: -4%;
+  
+  
+  }
+  .imgg{
+    width: 103%;
+    height: 70PX;
+    border-radius: 80%;
+    margin-left: -3%;
+    margin-top: 1%;
+  
+  }
+  h3{
+    margin-top: 10%;
+    margin-left: 36%;
+    font-size: 35PX;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h2{
+    color: white;
+    font-size: 45PX;
+    margin-top: 3%;
+    padding-left: 2%;
+  }
+  #addd{
+    color:rgb(8, 7, 7);
+      text-decoration: none;
+      background-color:red;
+      width: 20%;
+      height:50px;
+      margin-left: 22%; 
+      margin-top: 1%;
+      border-radius: 15PX;
+  
+  }
+  .img-responsivee{
+    width: 43%;
+    height: 338px;
+    margin-top: -35%;
+    margin-left: 55%;
+  }
+  /*
+  .swiper mySwiper{
+    transform: scale(1.2);
+    box-shadow: 5PX 5PX 15PX rgba(rgb(10, 10, 10), rgb0,0,0, 0);
+    height: 300PX;
+  }
+  .swiper-wrapper{
+    align-items: center;
+  }
+  .swiper-slide{
+    width: 200PX;
+    height: 250PX;
+    border-radius: 7PX;
+  }
+  .swiper-slide-col-xs-4{
+    width: 200PX;
+    height: 250PX;
+    border-radius: 7PX;
+  
+  }
+  .swiper-slide-active{
+    transform: scale(1.2);
+    transition: 0.4s;
+  }
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  <div class="col-xs-3">
+    <img  class="img-responsive"src="images/imageDDD.jpg"/>
+    <img class="image3"src="images/imagelogo2.png"/>
+    <img class="imageS"src="images/imageinsta3.png"/>
+    <img class="imageL"src="images/imagetwit.png"/>
+    <div class="card-content">
+      <p class="descreption">toddddddddddddddddddddddddddd
+        dddddddddddddddddddddddd
+        dddddddddddddddddddddddd
+      </p>
+      </div>
+      <script  src="https://code.jquery.com/jquery-3.6.4.js"></script>
+      <script src="js/jquery.hi-slide.js"></script>
+      <script>
+        $('.slide').hislide ();
+  
+      </script>
+  
+  .hi-slide >ul{
+    list-style: none;
+    position: relative;
+    width: 754PX;
+    height: 292PX;
+    margin: 0;
+    padding: 0;
+  }
+  .hi-slide > ul> li{
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    left: 377PX;
+    top:147PX;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 3PX solid white;
+    background-color: #333;
+    cursor: pointer;
+  }
+  .hi-slide > ul >li>col-xs-4{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+  }
+  <!DOCTYPE html>
+  <html>
+  <head>
+       <link rel="stylesheet" href="css/style.css">
+  </head>
+    
+  <body>
+         <header>
+           
+  
+               <div>
+            <nav>
+          <ul>
+          <li>ACCUIEL</li> <li>PLANNING</li><LI>ABONNEMENT</LI><LI>ACTIVITES</LI><li>NOTRE MAGASIN</li><LI><a>A PROPOS DE NOUS</a></LI>
+          </ul>
+          </nav>
+  
+          </div>
+         
+         <div>
+  
+         </header> 
+            
+         </div>
+        
+  <div class="container header">
+  <div class="row header">
+    <div class="container">
+      <div class="row">
+      <h1>NOS COACHES</h1>
+      <div class="slide hi-slide">
+        <div class="hi-prev"></div>
+        <div class="hi-next"></div>
+      <ul>
+      <li>
+      <div class="col-xs-4">
+        <img  class="img-responsive"src="images/imageD.jpg"/>
+        <img class="image1"src="images/imagelogo2.png"/>
+        <img class="imageS"src="images/imageinsta3.png"/>
+        <img class="imageL"src="images/imagetwit.png"/>
+        <div class="card-content">
+        <p class="descreption">toddddddddddddddddddddddddddd
+          dddddddddddddddddddddddd
+          dddddddddddddddddddddddd
+        </p>
+        </div>
+        
+        <input type="submit" value="Choisir CE COACH
+   PERSONNEL" id="add"/>
+  
+      </div>
+      </li>
+      <li>
+      <div class="col-xs-4">
+        <img  class="img-responsive"src="images/imageD.jpg"/>
+        <img class="image1"src="images/imagelogo2.png"/>
+        <img class="imageS"src="images/imageinsta3.png"/>
+        <img class="imageL"src="images/imagetwit.png"/>
+        <div class="card-content">
+        <p class="descreption">toddddddddddddddddddddddddddd
+          dddddddddddddddddddddddd
+          dddddddddddddddddddddddd
+        </p>
+        </div>
+        
+      
+        <input type="submit" value="Choisir CE COACH 
+  PERSONNEL" id="add"/>
+      </div>
+      </li>
+      <li>
+      <div class="col-xs-4">
+        <img  class="img-responsive"src="images/imageD.jpg"/>
+        <img class="image1"src="images/imagelogo2.png"/>
+        <img class="imageS"src="images/imageinsta3.png"/>
+        <img class="imageL"src="images/imagetwit.png"/>
+        <div class="card-content">
+        <p class="descreption">toddddddddddddddddddddddddddd
+          dddddddddddddddddddddddd
+          dddddddddddddddddddddddd
+        </p>
+        </div>
+      
+        <input type="submit" value="Choisir CE COACH 
+  PERSONNEL" id="add"/>
+        </div>
+    </li>
+    </ul>
+      </div>
+      
+    <!----
+  <h3>VOS COMMENTAIRE</h3>
+    <div class="col-xs-7">
+      <div class="cercle">
+    <img class="imgg" src="images/imagepro.jpg"/>
+  </div>
+    <h2> IT'S TIME TO<br> BE HEALTHY <br>AND IN GREAT<br> SHAPE </h2><img class="img-responsivee" src="images/imageav.jpg"/>
+    </div>
+      <input type="submit" value="AJOUTEZ UN COMMENTAIRE" id="addd"/>
+  -->
+  <script  src="https://code.jquery.com/jquery-3.6.4.js"></script>
+  <script src="js/jquery.hi-slide.js"></script>
+  <script>
+    $('.slide').hislide ();
+  
+  </script>
+  
+      
+  </body>
+  
+  
+  </html>
+  sont <style></style>
+  body{
+    background-color: rgb(29, 27, 27);
+  }
+  
+  header
+  {
+    position: relative;
+    margin-right: 55px;
+    margin-left: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  }
+  
+  
+  nav {
+  
+    color: rgb(236, 228, 228);
+    text-decoration: none;
+    top: 0%;
+    float: right;
+  
+  
+    
+  }  
+  nav li{
+    margin: 15px;
+  
+  } 
+  
+  nav ul{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li a {
+  color: red;
+  }
+  
+  h1{
+    color: red;
+    margin-left: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  
+  
+  .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  
+   
+  }
+  .box{
+    background-color: red;
+    border: 5px solid rgb(238, 13, 13);
+    height: 200Px;
+    width: 200px;
+    margin-bottom: 10PX;
+    margin: 2PX;
+    margin-left: 170PX;
+    padding-top: 70%;
+    padding-bottom: 90%;
+    padding-right: 130PX;
+    padding-left: 30%;
+  
+    
+    
+    
+  }
+  
+  
+  .image1{
+  height: 7%;
+  width: 9%;
+  margin-left: 35%;
+  margin-top: 2%;
+  
+  }
+  .imageS{
+  height: 7%;
+  width: 9%;
+  margin-left: 1%;
+  margin-top: 2%;
+  }
+  .imageL{
+  height: 7%;
+  width: 9%;
+  margin-left: 1%;
+  margin-top: 2%;
+  
+  }
+  .image2{
+  height: 7%;
+  width: 9%;
+  margin-left: 35%;
+  margin-top: 2%;
+  }
+  
+  .image3{
+    height: 7%;
+    width: 9%;
+    margin-left: 35%;
+    margin-top: 2%;
+   
+  }
+  #add{
+    color: rgb(236, 228, 228);
+    text-decoration: none;
+    background-color:rgb(15, 14, 14);
+    width: 60%;
+    margin-left: 35%;
+    border-radius: 15px;
+  
+  }
+  
+  .x
+  {
+    margin: top 40px;
+    margin-left:62%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height:70px;
+    width: 140px;
+  }
+  
+  .b
+  {
+    width: 50 px ;
+    height: 60 px ;
+  }
+  
+  container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  padding-right: 15px;
+  padding-left:26%;
+  padding-top: -20%;
+  margin-right: auto;
+ margin-top: -25px;
+  margin-left:35%;
+  display: relative;
+  
+  .row {
+  margin-right: -15px;
+  margin-left: -15px;
+  }
+  
+  .col-xs-4 {
+  width: 20%;
+  height: 304PX;
+  background-color: red;
+  margin-left: 7%;
+  margin-top: 5%;
+  justify-content: center;
+  
+  align-items: center;
+  list-style-type: none
+  }
+  .col-xs-1 {
+    background-color: red;
+    width: 25%;
+    height: 404PX;
+    margin-left: 36%;
+    margin-top: -27%;
+   
+  }
+  .col-xs-3{ 
+    background-color: red;
+    width: 20%;
+    height: 304PX;
+    margin-left: 70%;
+    margin-top: -26%;
+    }
+  .card-content{
+  display: flex;
+  flex-direction: column;
+  padding-top: -19%;
+  align-items: center;
+  }
+  .descreption{
+  font-size: 14PX;
+  color: black;
+  text-align: center;
+  }
+    
+  .img-responsive{
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-right: 2%;
+  width: 96%;
+  
+  
+  }
+  .col-xs-7{
+  height: 350px;
+  width: 60%;
+  margin-left:22% ;
+  margin-top: -2%;
+  border: 5px solid red;
+  }
+  .cercle{
+  width: 10%;
+  height: 70PX;
+  border: 5PX solid red;
+  border-radius: 80%;
+  margin-left: -5%;
+  margin-top: -5%;
+  
+  
+  }
+  .imgg{
+  width: 106%;
+  height: 70PX;
+  border-radius: 80%;
+  margin-left: -3%;
+  margin-top: 1%;
+  
+  }
+  h3{
+  margin-top: 10%;
+  margin-left: 36%;
+  font-size: 35PX;
+  color: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h2{
+  color: white;
+  font-size: 45PX;
+  margin-top: 3%;
+  padding-left: 5%;
+  }
+  #addd{
+  color:rgb(8, 7, 7);
+    text-decoration: none;
+    background-color:red;
+    width: 20%;
+    height:50px;
+    margin-left: 22%; 
+    margin-top: 1%;
+    border-radius: 15PX;
+  
+  }
+  .img-responsivee{
+  width: 43%;
+  height: 338px;
+  margin-top: -40%;
+  margin-left: 55%;
+  }
+  /*
+  .hi-slide{
+    position: relative;
+    width: 745PX;
+    height: 292PX;
+    margin: 115px auto 0;
+  }
+  .hi-slide .hi-next,
+  .hi-slide .hi-prev{
+    position: absolute;
+    top: 50%;
+    width: 30PX;
+    height:30PX;
+    margin-top: -20px;
+    border-radius: 50px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-color:rgb(236, 227, 227);
+    color: black;
+    transition: all 0.7s;
+    font-size: 20px;
+    margin-left: -15%;
+    
+    font-weight: bold;
+    
+  
+  }
+  .hi-slide .hi-next:hover,
+  .hi-slide .hi-prev:hover{
+    opacity: 1;
+    background-color: rgb(214, 207, 207);
+  }
+  .hi-slide .hi-prev{
+    left: -70px;
+  }
+  .hi-slide .hi-prev::before{
+    content: '<';
+   
+  }
+  .hi-slide .hi-next{
+    right: -80px;
+  }
+  .hi-slide .hi-next::before{
+    content: '>';
+   
+  }
+  .hi-slide >ul{
+    list-style: none;
+    position: relative;
+    width: 754PX;
+    height: 292PX;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+  }
+  .hi-slide > ul> li{
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    left: 377PX;
+    top:147PX;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 3PX solid white;
+    background-color: #333;
+    cursor: pointer;
+  }
+  .hi-slide > ul >li>div.col-xs-4{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+  }
+  */
+  sont continue de js
+  var appendNumber = 6;
+  var prependNumber = 1;
+  document
+    .querySelector(".prepend-2-slides")
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      swiper.prependSlide([
+        '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+        '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+      ]);
+    });
+  document
+    .querySelector(".prepend-slide")
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      swiper.prependSlide(
+        '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+      );
+    });
+  document
+    .querySelector(".append-slide")
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      swiper.appendSlide(
+        '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+      );
+    });
+  document
+    .querySelector(".append-2-slides")
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      swiper.appendSlide([
+        '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+        '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+      ]);
+    });
+  
+    <body>
+      <header>	
+   <nav>
+  <ul>
+  <li>ACCUIEL</li> <li>PLANNING</li><li>ABONNEMENT</li><li>ACTIVITES</li><li>NOTRE MAGASIN</li><li>A PROPOS DE NOUS</li>
+  </ul>
+  </nav>
+  </header> 
+  <label for="username">Username:</label>         
+  name="password"
+  <label for="password">Password:</label>
+  
+  placeholder="MOT DE PASSE"
+  <input type="text" id="username" placeholder="NOM DE UTILISATEUR"><br><br>
+  
+  
